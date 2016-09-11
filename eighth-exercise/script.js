@@ -1,11 +1,11 @@
 $(document).ready(function(){
 
-  $( ).hover(
+  $('div').hover(
     function(){
-
+        $(this).addClass('active');
     },
     function(){
-
+      $(this).removeClass('active');
     }
   );
 

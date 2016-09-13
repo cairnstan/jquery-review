@@ -1,5 +1,3 @@
 $(document).ready(function(){
-
-    // Fill in the blanks!
-    $( ).animate({ top: '-=', 500 });
+     $('img').animate({ top: '+=100px'}, 1000 );
 });

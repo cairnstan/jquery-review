@@ -1,3 +1,4 @@
 $(document).ready(function() {
-   $('ol').selectable();
+  //  $('ol').selectable();
+   $('ol').sortable();
 });
